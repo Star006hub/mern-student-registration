@@ -17,7 +17,7 @@ const INITIAL_EVENTS = [
     location: 'Room 304',
     category: 'Technical',
     description: 'Four magical challenges await! Test your speed, reflexes, precision and wit to prove yourself!',
-    image: 'ITSA.jpeg',
+    image: '/ITSA.jpeg',
     tiers: [
       { id: 't1', name: 'Participate', price: 100, total: 200, booked: 0 },
     ]
@@ -31,7 +31,7 @@ const INITIAL_EVENTS = [
     location: 'Room 318',
     category: 'Technical',
     description: 'Rome is waiting… Claim the throne… or fall into the trap.',
-    image: 'CSI.jpeg',
+    image: '/CSI.jpeg',
     tiers: [
       { id: 't3', name: 'Participate', price: 100, total: 500, booked: 0 },
     ]
@@ -45,7 +45,7 @@ const INITIAL_EVENTS = [
     location: 'Room 414',
     category: 'Technical',
     description: 'A machine can be replicated. An engineer cannot.',
-    image: 'ISTE.jpeg',
+    image: '/ISTE.jpeg',
     tiers: [
       { id: 't5', name: 'Participate', price: 100, total: 100, booked: 0 }
     ]
