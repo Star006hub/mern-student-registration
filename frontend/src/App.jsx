@@ -7,9 +7,6 @@ import Plus from 'lucide-react/dist/esm/icons/plus';
 import MapPin from 'lucide-react/dist/esm/icons/map-pin';
 import ShieldCheck from 'lucide-react/dist/esm/icons/shield-check';
 import CheckCircle from 'lucide-react/dist/esm/icons/check-circle';
-import itsaImg from './assets/ITSA.jpeg';
-import csiImg from './assets/CSI.jpeg';
-import isteImg from './assets/ISTE.jpeg';
 
 const INITIAL_EVENTS = [
   {
@@ -21,7 +18,7 @@ const INITIAL_EVENTS = [
     location: 'Room 304',
     category: 'Technical',
     description: 'Four magical challenges await! Test your speed, reflexes, precision and wit to prove yourself!',
-    image: itsaImg,
+    image: new URL('./assets/ITSA.jpeg', import.meta.url).href,
     tiers: [
       { id: 't1', name: 'Participate', price: 100, total: 200, booked: 0 }
     ]
@@ -35,7 +32,7 @@ const INITIAL_EVENTS = [
     location: 'Room 318',
     category: 'Technical',
     description: 'Rome is waiting... Claim the throne... or fall into the trap.',
-    image: csiImg,
+    image: new URL('./assets/CSI.jpeg', import.meta.url).href,
     tiers: [
       { id: 't1', name: 'Participate', price: 100, total: 500, booked: 0 }
     ]
@@ -49,7 +46,7 @@ const INITIAL_EVENTS = [
     location: 'Room 414',
     category: 'Technical',
     description: 'A machine can be replicated. An engineer cannot.',
-    image: isteImg,
+    image: new URL('./assets/ISTE.jpeg', import.meta.url).href,
     tiers: [
       { id: 't1', name: 'Participate', price: 100, total: 100, booked: 0 }
     ]
