@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
-import Calendar from 'lucide-react/dist/esm/icons/calendar';
-import Ticket from 'lucide-react/dist/esm/icons/ticket';
-import QrCode from 'lucide-react/dist/esm/icons/qr-code';
-import Search from 'lucide-react/dist/esm/icons/search';
-import Plus from 'lucide-react/dist/esm/icons/plus';
-import MapPin from 'lucide-react/dist/esm/icons/map-pin';
-import ShieldCheck from 'lucide-react/dist/esm/icons/shield-check';
-import CheckCircle from 'lucide-react/dist/esm/icons/check-circle';
+import { 
+  Calendar, 
+  Ticket, 
+  QrCode, 
+  Search, 
+  Plus, 
+  MapPin, 
+  ShieldCheck, 
+  CheckCircle 
+} from 'lucide-react';
 
 const INITIAL_EVENTS = [
   {
